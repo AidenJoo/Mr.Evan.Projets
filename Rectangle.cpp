@@ -37,5 +37,7 @@ int Rectangle::get_width()
  */
 int Rectangle::area()
 {
-	return this->width*height;
+	return this->width*height;	// Simple fix, there is no variable called height. We called it length
+	// Also, this will work, but I want you to get in the habit of writing this->width * this->length
+	// Add this-> before every variable you call from within a class
 }
