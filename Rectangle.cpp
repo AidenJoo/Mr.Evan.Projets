@@ -35,7 +35,7 @@ int Rectangle::get_width()
  * and the width in this method we only need to call
  * this->length and this->width respectively.
  */
-int Rectangle::area()
+int Rectange::area()
 {
-	return this->width*height;
+	return this->width*this->height;
 }
